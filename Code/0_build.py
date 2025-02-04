@@ -1,6 +1,6 @@
 import pandas as pd 
 
-filename = 'Anindyakafka/There_are_names/data/3_name_groups.csv'
+filename = 'data/3_name_groups.csv'
 names = pd.read_csv(filename, on_bad_lines='warn')
 
 filename = 'Anindyakafka/There_are_names/data/full_descriptors.csv'
