@@ -1,6 +1,6 @@
 import pandas as pd 
 
-filename = 'data/3_name_groups.csv'
+filename = 'C:/Program Files/Microsoft VS Code/Anindyakafka/There_are_names/data/3_name_groups.csv'
 names = pd.read_csv(filename, on_bad_lines='warn')
 
 filename = 'data/full_descriptors.csv'
